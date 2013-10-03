@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Proximity</string>
+    <string name="action_settings">Settings</string>
+    <string name="current">Aktuelle Aktivität</string>
+    <string name="header">Bagception</string>
+
+</resources>
