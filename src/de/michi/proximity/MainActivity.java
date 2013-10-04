@@ -26,4 +26,24 @@ public class MainActivity extends Activity {
     	Intent current_activity = new Intent(this, Current_Activity.class);
     	startActivity(current_activity);
     }
+	
+	public void goToItem(View view){
+    	Intent item_intent = new Intent(this, AddItem.class);
+    	startActivity(item_intent);
+    }
+	
+	public void goToPlace(View view){
+    	Intent place_intent = new Intent(this, AddPlace.class);
+    	startActivity(place_intent);
+    }
+    
+    public void goToActivity(View view){
+    	Intent activity_intent = new Intent(this, AddActivity.class);
+    	startActivity(activity_intent);
+    }
+    
+    public void goToContext(View view){
+    	Intent context_intent = new Intent(this, AddContext.class);
+    	startActivity(context_intent);
+    }
 }

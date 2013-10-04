@@ -5,5 +5,35 @@
     <string name="action_settings">Settings</string>
     <string name="current">Aktuelle Aktivität</string>
     <string name="header">Bagception</string>
+    <string name="current_activity_name">Aktuelle Aktivität</string>
+    <string name="title_activity_current_">Current_Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_item">AddItem</string>
+    <string name="headText">Menü</string>
+    <string name="item">Gegenstand hinzufügen</string>
+    <string name="place">Ort hinzufügen</string>
+    <string name="activity">Aktivität hinzufügen</string>
+    <string name="context">Kontext hinzufügen</string>
+    <string name="title_activity_add_place">AddPlace</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="title_activity_add_context">AddContext</string>
+    <string name="hello_item">Item</string>
+    <string name="hello_place">Place</string>
+    <string name="hello_activity">Activity</string>
+    <string name="hello_context">Context</string>
+    <string name="itemName">Name</string>
+    <string name="description">Beschreibung</string>
+    <string name="itemVisibility">Sichtbarkeit</string>
+    <string name="rb1">Privat</string>
+    <string name="rb2">Öffentlich</string>
+    <string name="addTag">Tag hinzufügen</string>
+    <string name="save">Speichern</string>
+	<string name="cancel">Abbrechen</string>
+    
+    <string-array name="ids">
+        <item>Found ID 1</item>
+        <item>Found ID 2</item>
+        <item>Found ID XY</item>
+    </string-array>
 
 </resources>

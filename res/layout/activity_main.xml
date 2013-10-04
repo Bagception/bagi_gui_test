@@ -16,11 +16,20 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20px"
-        android:textColor="#E7E4E4"
-		android:textSize="50px"
         android:text="@string/header"
-        />
+        android:textColor="#E7E4E4"
+        android:textSize="50px" />
 
+    <Button
+        android:id="@+id/currentActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonGegenstand"
+        android:layout_below="@+id/buttonGegenstand"
+        android:onClick="currentActivity"
+        android:text="@string/current"
+        android:textColor="#E2E2E2" />
+    
     <Button
         android:id="@+id/buttonGegenstand"
         android:layout_width="fill_parent"
@@ -28,7 +37,38 @@
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
-        android:text="@string/current"
-        android:onClick="goToItem" />
+        android:onClick="goToItem"
+        android:text="@string/item"
+        android:textColor="#E2E2E2" />
+
+    <Button
+        android:id="@+id/buttonOrt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonGegenstand"
+        android:layout_below="@+id/currentActivity"
+        android:onClick="goToPlace"
+        android:text="@string/place"
+        android:textColor="#E2E2E2" />
+
+    <Button
+        android:id="@+id/buttonAktivitaet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonGegenstand"
+        android:layout_below="@+id/buttonOrt"
+        android:onClick="goToActivity"
+        android:text="@string/activity"
+        android:textColor="#E2E2E2" />
+
+    <Button
+        android:id="@+id/buttonKontext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonGegenstand"
+        android:layout_below="@+id/buttonAktivitaet"
+        android:onClick="goToContext"
+        android:text="@string/context"
+        android:textColor="#E2E2E2" />
 
 </RelativeLayout>
