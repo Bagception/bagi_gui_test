@@ -1,10 +1,16 @@
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#3B3B3B"
-    tools:context=".MainActivity" >
     
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3B3B3B"
+    >
+<TableLayout 
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity" >
+        
     <TableRow
         android:id="@+id/tableRow2"
         android:layout_width="fill_parent"
@@ -15,15 +21,15 @@
 	    <TextView 
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
-		        android:layout_marginTop="30px"
-		        android:layout_marginLeft="15px"
-		        android:layout_marginRight="4dip"
-		        android:layout_marginBottom="30px"
+		        android:layout_marginBottom="15dp"
+	            android:layout_marginLeft="15dp"
+	            android:layout_marginRight="4dip"
+	            android:layout_marginTop="15dp"
 		        android:layout_span="2"
 		        android:layout_gravity="center_vertical"
 		        
 		        android:textColor="#E7E4E4"
-		        android:textSize="50px"
+		        android:textSize="25sp"
 		        android:text="Aktivität:" />
 
 	    <Button
@@ -32,7 +38,8 @@
 	        android:layout_height="wrap_content"
 	        android:layout_gravity="center"
 	        android:background="#E7E4E4"
-	        android:padding="10px"
+	        android:textSize="20sp"
+	        android:padding="10dp"
 	        android:text="FUSSBALL" />
 	    
 	</TableRow>
@@ -200,3 +207,4 @@
     </TableRow>
     
 </TableLayout>
+</ScrollView>

@@ -10,7 +10,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_add_item">AddItem</string>
     <string name="headText">Menü</string>
-    <string name="item">Gegenstand hinzufügen</string>
+    <string name="item">Hinzufügen</string>
     <string name="place">Ort hinzufügen</string>
     <string name="activity">Aktivität hinzufügen</string>
     <string name="context">Kontext hinzufügen</string>
@@ -24,6 +24,7 @@
     <string name="itemName">Name</string>
     <string name="description">Beschreibung</string>
     <string name="itemVisibility">Sichtbarkeit</string>
+    <string name="itemPhoto">Bild</string>
     <string name="rb1">Privat</string>
     <string name="rb2">Öffentlich</string>
     <string name="addTag">Tag hinzufügen</string>
@@ -34,6 +35,10 @@
         <item>Found ID 1</item>
         <item>Found ID 2</item>
         <item>Found ID XY</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Öffentlich</item>
+        <item>Privat</item>
     </string-array>
 
 </resources>
