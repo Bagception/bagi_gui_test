@@ -25,6 +25,7 @@
     <string name="description">Beschreibung</string>
     <string name="itemVisibility">Sichtbarkeit</string>
     <string name="itemPhoto">Bild</string>
+    <string name="itemPlace">Adresse</string>
     <string name="rb1">Privat</string>
     <string name="rb2">Öffentlich</string>
     <string name="addTag">Tag hinzufügen</string>
