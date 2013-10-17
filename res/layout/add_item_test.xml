@@ -3,7 +3,7 @@
     
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#3B3B3B"
+    android:background="@color/background"
     >
 <TableLayout 
     
@@ -28,7 +28,7 @@
             android:layout_marginTop="30dp"
             android:layout_span="2"
             android:text="@string/item"
-            android:textColor="#E7E4E4"
+            android:textColor="@color/text"
             android:textSize="25sp" />
 
         <QuickContactBadge
@@ -57,7 +57,7 @@
         android:layout_gravity="center"
         android:text="@string/itemName"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#E2E2E2" />
+        android:textColor="@color/text" />
 	    
 	    <EditText
         android:id="@+id/editName"
@@ -65,7 +65,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_width="wrap_content"
-        android:textColor="#E2E2E2" >
+        android:textColor="@color/text" >
 
         <requestFocus />
     </EditText>
@@ -83,7 +83,7 @@
 	        android:id="@+id/itemDescription"
 	        android:layout_gravity="center"
 	        android:text="@string/description"
-	        android:textColor="#E2E2E2"
+	        android:textColor="@color/text"
 	        android:textAppearance="?android:attr/textAppearanceMedium" />
         
         <EditText
@@ -92,7 +92,7 @@
 	        android:ems="10"
 	        android:inputType="text"
 	        android:layout_width="wrap_content"
-	        android:textColor="#E2E2E2" />
+	        android:textColor="@color/text" />
 	        
     </TableRow>
     
@@ -107,14 +107,14 @@
 	        android:id="@+id/itemVisibility"
 	        android:layout_gravity="center"
 	        android:text="@string/itemVisibility"
-	        android:textColor="#E2E2E2"
+	        android:textColor="@color/text"
 	        android:textAppearance="?android:attr/textAppearanceMedium" />
         
         <Spinner
 	        android:id="@+id/foundTags"
 	        android:layout_gravity="center"
 	        android:entries="@array/ids"
-	        android:textColor="#E2E2E2" />
+	        android:textColor="@color/text" />
 	        
     </TableRow>
     
@@ -128,10 +128,9 @@
     <TextView 
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:layout_margin="15px"
-	        
-	        android:textSize="30px"
-	        android:textColor="#E7E4E4"
+	        android:layout_margin="15dp"
+	        android:textSize="30sp"
+	        android:textColor="@color/text"
 	        android:text="Weitere Funktionen:" />
     
     <View

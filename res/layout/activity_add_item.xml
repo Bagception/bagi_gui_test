@@ -3,7 +3,7 @@
     
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#3B3B3B"
+    android:background="@color/background"
     >
 <TableLayout 
     
@@ -28,7 +28,7 @@
             android:layout_marginTop="10dp"
             android:layout_span="2"
             android:text="@string/item"
-            android:textColor="#E7E4E4"
+            android:textColor="@color/text"
             android:textSize="25sp" />
 
     </TableRow>
@@ -52,7 +52,7 @@
         android:text="@string/itemName"
         android:layout_marginLeft="15dp"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#E2E2E2" />
+        android:textColor="@color/text" />
 	    
 	    <EditText
         android:id="@+id/editName"
@@ -61,7 +61,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_width="wrap_content"
-        android:textColor="#E2E2E2" >
+        android:textColor="@color/text" >
 
         <requestFocus />
     </EditText>
@@ -80,7 +80,7 @@
 	        android:layout_gravity="center"
 	        android:layout_marginLeft="15dp"
 	        android:text="@string/description"
-	        android:textColor="#E2E2E2"
+	        android:textColor="@color/text"
 	        android:textAppearance="?android:attr/textAppearanceMedium" />
         
         <EditText
@@ -90,7 +90,7 @@
 	        android:ems="10"
 	        android:inputType="text"
 	        android:layout_width="wrap_content"
-	        android:textColor="#E2E2E2" />
+	        android:textColor="@color/text" />
 	        
     </TableRow>
     
@@ -106,7 +106,7 @@
 	        android:layout_gravity="center"
 	        android:layout_marginLeft="15dp"
 	        android:text="@string/itemVisibility"
-	        android:textColor="#E2E2E2"
+	        android:textColor="@color/text"
 	        android:textAppearance="?android:attr/textAppearanceMedium" />
         
         <Spinner
@@ -131,7 +131,7 @@
 	        android:layout_gravity="center"
 	        android:layout_marginLeft="15dp"
 	        android:text="@string/itemPhoto"
-	        android:textColor="#E2E2E2"
+	        android:textColor="@color/text"
 	        android:textAppearance="?android:attr/textAppearanceMedium" />
         
         <QuickContactBadge
@@ -156,7 +156,7 @@
 	        android:layout_gravity="center"
 	        android:layout_marginLeft="15dp"
 	        android:text="@string/addTag"
-	        android:textColor="#E2E2E2"
+	        android:textColor="@color/text"
 	        android:textAppearance="?android:attr/textAppearanceMedium" />
         
        <Spinner
@@ -185,14 +185,14 @@
         <Button
 		android:id="@+id/cancel"
 		android:layout_gravity="center"
-		android:textColor="#E2E2E2"
+		android:textColor="@color/text"
 		android:layout_marginLeft="25dp"
 	    android:text="@string/cancel" />
 	
 		<Button
 	    android:id="@+id/save"
 	    android:layout_gravity="center"
-	    android:textColor="#E2E2E2"
+	    android:textColor="@color/text"
 	    android:text="@string/save" />
 		
 	</TableRow>

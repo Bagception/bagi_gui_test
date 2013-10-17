@@ -3,7 +3,7 @@
     
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#3B3B3B"
+    android:background="@color/background"
     >
 <RelativeLayout 
     android:layout_width="match_parent"
@@ -22,7 +22,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="@string/header"
-        android:textColor="#E7E4E4"
+        android:textColor="@color/text"
         android:textSize="40sp" />
 
     <Button
@@ -33,7 +33,7 @@
         android:layout_below="@+id/buttonGegenstand"
         android:onClick="currentActivity"
         android:text="@string/current"
-        android:textColor="#E2E2E2" />
+        android:textColor="@color/text" />
     
     <Button
         android:id="@+id/buttonGegenstand"
@@ -44,7 +44,7 @@
         android:layout_marginTop="24dp"
         android:onClick="goToItem"
         android:text="@string/item"
-        android:textColor="#E2E2E2" />
+        android:textColor="@color/text" />
 
     <Button
         android:id="@+id/buttonOrt"
@@ -54,7 +54,7 @@
         android:layout_below="@+id/currentActivity"
         android:onClick="goToPlace"
         android:text="@string/place"
-        android:textColor="#E2E2E2" />
+        android:textColor="@color/text" />
 
     <Button
         android:id="@+id/buttonAktivitaet"
@@ -64,7 +64,7 @@
         android:layout_below="@+id/buttonOrt"
         android:onClick="goToActivity"
         android:text="@string/activity"
-        android:textColor="#E2E2E2" />
+        android:textColor="@color/text" />
 
     <Button
         android:id="@+id/buttonKontext"
@@ -74,7 +74,7 @@
         android:layout_below="@+id/buttonAktivitaet"
         android:onClick="goToContext"
         android:text="@string/context"
-        android:textColor="#E2E2E2" />
+        android:textColor="@color/text" />
 
 </RelativeLayout>
 </ScrollView>

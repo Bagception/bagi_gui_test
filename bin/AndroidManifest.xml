@@ -42,6 +42,10 @@
             android:name="de.michi.proximity.AddPlace"
             android:label="@string/title_activity_add_place" >
         </activity>
+        <activity
+            android:name="de.michi.proximity.ChooseItems"
+            android:label="@string/title_activity_choose_items" >
+        </activity>
     </application>
 
 </manifest>

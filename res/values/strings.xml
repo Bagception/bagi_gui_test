@@ -30,8 +30,10 @@
     <string name="rb2">Öffentlich</string>
     <string name="addTag">Tag hinzufügen</string>
     <string name="save">Speichern</string>
-	<string name="cancel">Abbrechen</string>
-    
+    <string name="cancel">Abbrechen</string>
+    <string name="chooseItem">Gegenstände auswählen</string>
+    <string name="chooseButton">Auswahl</string>
+
     <string-array name="ids">
         <item>Found ID 1</item>
         <item>Found ID 2</item>
@@ -41,5 +43,7 @@
         <item>Öffentlich</item>
         <item>Privat</item>
     </string-array>
+
+    <string name="title_activity_choose_items">ChooseItems</string>
 
 </resources>

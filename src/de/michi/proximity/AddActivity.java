@@ -1,22 +1,27 @@
 package de.michi.proximity;
 
+import java.util.ArrayList;
+import java.util.List;
 import android.os.Bundle;
+import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.view.Menu;
+import android.app.ListActivity;
+import android.content.Intent;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
 
+@SuppressLint("NewApi")
 public class AddActivity extends Activity {
-
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_add);
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.add, menu);
-		return true;
-	}
-
-}
+	
+	  public void onCreate(Bundle savedInstanceState) {
+	    super.onCreate(savedInstanceState);
+	    setContentView(R.layout.activity_add);
+	  }
+	  
+	  public void chooseItem(View view){
+	    	Intent choose_item = new Intent(this, ChooseItems.class);
+	    	startActivity(choose_item);
+	    }
+} 
