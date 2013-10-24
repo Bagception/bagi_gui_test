@@ -46,4 +46,9 @@ public class MainActivity extends Activity {
     	Intent context_intent = new Intent(this, AddContext.class);
     	startActivity(context_intent);
     }
+    
+    public void changeItem(View view){
+    	Intent change_intent = new Intent(this, ChangeItem.class);
+    	startActivity(change_intent);
+    }
 }

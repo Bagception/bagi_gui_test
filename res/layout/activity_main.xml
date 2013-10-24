@@ -24,13 +24,14 @@
         android:text="@string/header"
         android:textColor="@color/text"
         android:textSize="40sp" />
-
-    <Button
+    
+     <Button
         android:id="@+id/currentActivity"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/buttonGegenstand"
-        android:layout_below="@+id/buttonGegenstand"
+        android:layout_alignLeft="@+id/currentActivity"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="24dp"
         android:onClick="currentActivity"
         android:text="@string/current"
         android:textColor="@color/text" />
@@ -39,9 +40,8 @@
         android:id="@+id/buttonGegenstand"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
+        android:layout_below="@+id/currentActivity"
         android:onClick="goToItem"
         android:text="@string/item"
         android:textColor="@color/text" />
@@ -51,7 +51,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/buttonGegenstand"
-        android:layout_below="@+id/currentActivity"
+        android:layout_below="@+id/buttonGegenstand"
         android:onClick="goToPlace"
         android:text="@string/place"
         android:textColor="@color/text" />
@@ -67,14 +67,16 @@
         android:textColor="@color/text" />
 
     <Button
-        android:id="@+id/buttonKontext"
+        android:id="@+id/changeItem"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/buttonGegenstand"
         android:layout_below="@+id/buttonAktivitaet"
-        android:onClick="goToContext"
-        android:text="@string/context"
+        android:onClick="changeItem"
+        android:text="@string/changeItem"
         android:textColor="@color/text" />
+
+   
 
 </RelativeLayout>
 </ScrollView>

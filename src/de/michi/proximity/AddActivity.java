@@ -24,4 +24,9 @@ public class AddActivity extends Activity {
 	    	Intent choose_item = new Intent(this, ChooseItems.class);
 	    	startActivity(choose_item);
 	    }
+	  
+	  public void goToMenu(View view){
+	    	Intent menu_intent = new Intent(this, MainActivity.class);
+	    	startActivity(menu_intent);
+	    }
 } 

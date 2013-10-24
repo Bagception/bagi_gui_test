@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import android.os.Bundle;
 import android.app.ListActivity;
+import android.content.Intent;
+import android.view.View;
 import android.widget.ArrayAdapter;
 
 public class ChooseItems extends ListActivity {
@@ -33,5 +35,10 @@ public class ChooseItems extends ListActivity {
 	  private Model get(String s) {
 	    return new Model(s);
 	  }
+	  
+	  public void goToMenu(View view){
+	    	Intent menu_intent = new Intent(this, MainActivity.class);
+	    	startActivity(menu_intent);
+	    }
 
 }

@@ -5,100 +5,153 @@
     android:layout_height="fill_parent"
     android:background="@color/background"
     >
+<TableLayout 
     
-<GridLayout 
-    android:id="@+id/GridLayout1"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:columnCount="4"
-    android:useDefaultMargins="true"
-    >
+    tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_column="0"
-        android:layout_columnSpan="3"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="40dp"
-        android:layout_row="0"
-        android:text="@string/item"
-        android:textSize="20sp"
-        android:textColor="@color/text" />
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip" >
 
-    <TextView
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="10dp"
+            android:layout_span="2"
+            android:text="@string/place"
+            android:textColor="@color/text"
+            android:textSize="25sp" />
+
+    </TableRow>
+    
+    <View
+        android:layout_height="1dip"
+        android:layout_width="wrap_content"
+        android:background="#A2A0A0" />
+    
+   
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip" >
+	    
+	    <TextView
         android:id="@+id/itemName"
-        android:layout_column="0"
-        android:layout_gravity="right"
-        android:layout_row="1"
+        android:layout_gravity="center"
         android:text="@string/itemName"
-        android:textColor="@color/text"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <EditText
-        android:id="@+id/editName"
-        android:layout_column="1"
-        android:layout_columnSpan="2"
-        android:layout_row="1"
-        android:ems="10"
-        android:inputType="text"
-        android:textColor="@color/text" />
-
-    <TextView
-        android:id="@+id/itemDescription"
-        android:layout_column="0"
-        android:layout_gravity="right"
-        android:layout_row="2"
-        android:text="@string/description"
-        android:textColor="@color/text"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <EditText
-        android:id="@+id/editDescription"
-        android:layout_column="1"
-        android:layout_columnSpan="2"
-        android:layout_row="2"
-        android:ems="10"
-        android:inputType="text"
-        android:textColor="@color/text" />
-
-    <TextView
-        android:id="@+id/itemPlace"
-        android:layout_column="0"
-        android:layout_gravity="right"
-        android:layout_row="3"
-        android:text="@string/itemPlace"
-        android:textColor="@color/text"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <EditText
-        android:id="@+id/editAdresse"
-        android:layout_column="1"
-        android:layout_columnSpan="2"
-        android:layout_row="3"
-        android:ems="10"
-        android:inputType="text"
-        android:textColor="@color/text" />
-
-    <Button
-        android:id="@+id/cancel"
-        android:layout_column="0"
-        android:layout_columnSpan="3"
-        android:layout_gravity="left"
         android:layout_marginLeft="15dp"
-        android:layout_row="8"
-        android:layout_marginTop="40dp"
-        android:text="@string/cancel"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/text" />
+	    
+	    <EditText
+        android:id="@+id/editName"
+        android:layout_gravity="center"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:textColor="@color/text" >
 
-    <Button
-        android:id="@+id/save"
-        android:layout_column="0"
-        android:layout_columnSpan="3"
-        android:layout_gravity="right"
-        android:layout_marginRight="30dp"
-        android:layout_row="8"
-        android:layout_marginTop="40dp"
-        android:text="@string/save"
-        android:textColor="@color/text" />
+        <requestFocus />
+    </EditText>
+	    
+	</TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip" >
+      
+        <TextView
+	        android:id="@+id/itemDescription"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="15dp"
+	        android:text="@string/description"
+	        android:textColor="@color/text"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+	        android:id="@+id/editDescription"
+	        android:layout_gravity="center"
+	        android:layout_marginRight="15dp"
+	        android:ems="10"
+	        android:inputType="text"
+	        android:layout_width="wrap_content"
+	        android:textColor="@color/text" />
+	        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="25dip"
+        android:layout_marginTop="10dip" >
+      
+        <TextView
+	        android:id="@+id/itemPlace"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="15dp"
+	        android:text="@string/itemPlace"
+	        android:textColor="@color/text"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+	        android:id="@+id/editDescription"
+	        android:layout_gravity="center"
+	        android:layout_marginRight="15dp"
+	        android:ems="10"
+	        android:inputType="text"
+	        android:layout_width="wrap_content"
+	        android:textColor="@color/text" />
+	        
+    </TableRow>
+  
+    <View
+        android:layout_height="1dip"
+        android:layout_width="wrap_content"
+        android:background="#A2A0A0" />
+    
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="15dip" >
+    
+        
+        <Button
+		android:id="@+id/cancel"
+		android:layout_gravity="center"
+		android:textColor="@color/text"
+		android:layout_marginLeft="25dp"
+		android:onClick="goToMenu"
+	    android:text="@string/cancel" />
+	
+		<Button
+	    android:id="@+id/save"
+	    android:layout_gravity="center"
+	    android:textColor="@color/text"
+	    android:text="@string/save" />
+		
+	</TableRow>
+</TableLayout>
 
-</GridLayout>
+    
+    
+
+
 </ScrollView>

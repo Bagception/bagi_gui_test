@@ -10,7 +10,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_add_item">AddItem</string>
     <string name="headText">Menü</string>
-    <string name="item">Hinzufügen</string>
+    <string name="item">Item hinzufügen</string>
     <string name="place">Ort hinzufügen</string>
     <string name="activity">Aktivität hinzufügen</string>
     <string name="context">Kontext hinzufügen</string>
@@ -31,8 +31,12 @@
     <string name="addTag">Tag hinzufügen</string>
     <string name="save">Speichern</string>
     <string name="cancel">Abbrechen</string>
-    <string name="chooseItem">Gegenstände auswählen</string>
+    <string name="chooseItem">Gegenstände</string>
     <string name="chooseButton">Auswahl</string>
+    <string name="football">FUßBALL</string>
+    <string name="forgot">Vergessen:</string>
+    <string name="additionalFunctions">Weitere Funktionen:</string>
+    <string name="changeItem">Gegenstand bearbeiten</string>
 
     <string-array name="ids">
         <item>Found ID 1</item>
@@ -45,5 +49,6 @@
     </string-array>
 
     <string name="title_activity_choose_items">ChooseItems</string>
+    <string name="title_activity_change_item">ChangeItem</string>
 
 </resources>

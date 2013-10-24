@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-     <color name="background">#DCE9FF</color>
-	 <color name="text">#464646</color>
+     <color name="background">#5F5F5F</color>
+	 <color name="text">#DADADA</color>
      
 </resources>
