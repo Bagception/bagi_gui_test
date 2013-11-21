@@ -99,6 +99,7 @@ public final class R {
         public static final int choose_items=0x7f090005;
         public static final int current_=0x7f090006;
         public static final int main=0x7f090007;
+        public static final int show_items=0x7f090008;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
@@ -132,13 +133,15 @@ public final class R {
         public static final int rb1=0x7f060019;
         public static final int rb2=0x7f06001a;
         public static final int save=0x7f06001c;
+        public static final int showItems=0x7f060024;
         public static final int title_activity_add=0x7f06000e;
         public static final int title_activity_add_context=0x7f06000f;
         public static final int title_activity_add_item=0x7f060007;
         public static final int title_activity_add_place=0x7f06000d;
-        public static final int title_activity_change_item=0x7f060025;
-        public static final int title_activity_choose_items=0x7f060024;
+        public static final int title_activity_change_item=0x7f060026;
+        public static final int title_activity_choose_items=0x7f060025;
         public static final int title_activity_current_=0x7f060005;
+        public static final int title_activity_show_items=0x7f060027;
     }
     public static final class style {
         /** 

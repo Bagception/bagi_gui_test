@@ -1,10 +1,16 @@
 package de.michi.proximity;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.ContentValues;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.Toast;
+import de.michi.proximity.contentprovider.BagceptionContentProvider;
 
 public class AddItem extends Activity {
 
@@ -26,4 +32,19 @@ public class AddItem extends Activity {
     	startActivity(menu_intent);
     }
 
+	public void onClickAddItem(View view){
+		
+		// Add new Item
+		ContentValues values = new ContentValues();
+		
+		values.put(BagceptionContentProvider.NAME, ((EditText)findViewById(R.id.editName)).getText().toString());
+		values.put(BagceptionContentProvider.DESCRIPTION, ((EditText)findViewById(R.id.editDescription)).getText().toString());
+		values.put(BagceptionContentProvider.VISIBILITY, ((Spinner)findViewById(R.id.visibility)).getSelectedItem().toString());
+		values.put(BagceptionContentProvider.TAG_ID, ((Spinner)findViewById(R.id.foundTags)).getSelectedItem().toString());
+		
+		Uri uri = getContentResolver().insert(BagceptionContentProvider.CONTENT_URI, values);
+		
+		Toast.makeText(getBaseContext(), uri.toString(), Toast.LENGTH_LONG).show();
+	}
+	
 }

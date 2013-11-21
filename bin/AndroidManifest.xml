@@ -50,6 +50,10 @@
             android:name="de.michi.proximity.ChangeItem"
             android:label="@string/title_activity_change_item" >
         </activity>
+        <provider 
+            android:name=".contentprovider.BagceptionContentProvider" 
+            android:authorities="de.michi.proximity.contentprovider.Items">
+        </provider>
     </application>
 
 </manifest>

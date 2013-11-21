@@ -37,6 +37,7 @@
     <string name="forgot">Vergessen:</string>
     <string name="additionalFunctions">Weitere Funktionen:</string>
     <string name="changeItem">Gegenstand bearbeiten</string>
+    <string name="showItems">Gegenstände</string>
 
     <string-array name="ids">
         <item>Found ID 1</item>
@@ -50,5 +51,6 @@
 
     <string name="title_activity_choose_items">ChooseItems</string>
     <string name="title_activity_change_item">ChangeItem</string>
+    <string name="title_activity_show_items">ShowItems</string>
 
 </resources>

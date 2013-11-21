@@ -193,6 +193,7 @@
 		<Button
 	    android:id="@+id/save"
 	    android:layout_gravity="center"
+	    android:onClick="onClickAddItem"
 	    android:textColor="@color/text"
 	    android:text="@string/save" />
 		
